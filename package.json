@@ -1,0 +1,15 @@
+{
+  "name": "liamkande.com",
+  "version": "0.0.1",
+  "description": "This is my website with all the latest projects and skills sets I've aquired so far!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ".?"
+  },
+  "author": "Ansoumane Liam  Kande",
+  "license": "MIT"
+}
