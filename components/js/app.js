@@ -59,13 +59,23 @@ var MainInterface = React.createClass({
           "boxClass": "col-sm-6 col-md-4 box-three boxwrapper",
           "pClass": "text-center detail"
         },
+        
+        {
+          "name": "Bulletin Board App with React.js",
+          "skills": "React.js | ES6 | JSX | Babel | NPM",
+          "downloadLink": "https://s3.us-east-2.amazonaws.com/liamkande.com/projects/Bulletin-Board-App-with-ReactJS.zip",
+          "description": "Developed a Bulletin board app using React components and properties, added state to components to handle events, worked with PropTypes, developed a more complete app with React.js and companion tools like Babel, NPM, and more.",
+          "type": "React",
+          "boxClass": "col-sm-12 col-md-12 box-sp boxwrapper",
+          "pClass": "text-center"
+        },
         {
           "name": "Website Optimization",
           "skills": "HTML | CSS | Chrome Developer Tools | critical rendering path | 60FPS rendering",
           "downloadLink": "https://s3.us-east-2.amazonaws.com/liamkande.com/projects/Optimization3.zip",
           "description": "Optimized an inefficient web application's JavaScript, CSS and assets delivery, ensuring it runs at 60fps and achieves a PageSpeed score of at least 90.",
           "type": "Optimization",
-          "boxClass": "col-sm-6 col-md-4 box-four boxwrapper",
+          "boxClass": "col-sm-6 col-md-4 box-four boxwrapper clearfix",
           "pClass": "text-center detail"
         },
         {
@@ -93,7 +103,7 @@ var MainInterface = React.createClass({
           "description": "Used objects and methods to get the current time, variables to hold information, methods to break that time, operators to translate information into degrees and DOM element properties for positioning.",
           "type": "JavaScript",
           "boxClass": "col-sm-12 col-md-12 box-sp-two boxwrapper",
-          "pClass": "text-center"
+          "pClass": "text-center",
         }
       ]//Json data
     } //return
@@ -117,19 +127,20 @@ var MainInterface = React.createClass({
         var boxClasses = this.state.data[index].boxClass;
         var pClasses = this.state.data[index].pClass;
 
+
       return (
-        <div className={boxClasses} key={index}>
-          <img src={images}
-            className="img-thumbnail img-responsive center-block imgwrapper"
-            width={"100"} alt={"thumbnail1"} />
-          <h2>{this.state.data[index].name}</h2>
-          <h3>{this.state.data[index].skills}</h3>
-          <a className="btn btn-lg" href={this.state.data[index].downloadLink}>
-          <img src={"/images/Download-Glyph.svg"} width={"30"} />
-          <h5>DOWNLOAD</h5>
-          </a>
-          <p className={pClasses}>{this.state.data[index].description}</p>
-        </div>
+          <div className={boxClasses} key={index}>
+            <img src={images}
+              className="img-thumbnail img-responsive center-block imgwrapper"
+              width={"100"} alt={"thumbnail1"} />
+            <h2>{this.state.data[index].name}</h2>
+            <h3>{this.state.data[index].skills}</h3>
+            <a className="btn btn-lg" href={this.state.data[index].downloadLink}>
+            <img src={"/images/Download-Glyph.svg"} width={"30"} />
+            <h5>DOWNLOAD</h5>
+            </a>
+            <p className={pClasses}>{this.state.data[index].description}</p>
+          </div>
       )//return
     }.bind(this));//filtered.map
     return(
