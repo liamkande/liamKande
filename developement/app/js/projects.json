@@ -3,7 +3,8 @@
     "name": "Bulletin Board App with React.js",
     "skills": "React.js | ES6 | JSX | Babel | NPM",
     "downloadLink": "https://s3.us-east-2.amazonaws.com/liamkande.com/projects/Bulletin-Board-App-with-ReactJS.zip",
-    "description": "Developed a Bulletin board app using React components and properties, added state to components to handle events, worked with PropTypes, developed a more complete app with React.js and companion tools like Babel, NPM, and more."
+    "description": "Developed a Bulletin board app using React components and properties, added state to components to handle events, worked with PropTypes, developed a more complete app with React.js and companion tools like Babel, NPM, and more.",
+    "type": "React"
   },
   {
     "name": "Responsive Website & Images with JavaScript",
