@@ -22,7 +22,7 @@ boxes.forEach(function (effect) {
 		effect.querySelector("h2").style.textShadow = "4px 5px 17px #000000";
 		effect.querySelector("img").style.width = "80px";
 		effect.querySelector(".detail").style.visibility = "visible";
-		effect.style.height = "550px";
+		effect.style.height = "100%";
 
 	}, false);
 	effect.addEventListener("mouseleave", function () {
