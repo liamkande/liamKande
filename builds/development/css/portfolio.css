@@ -18,6 +18,11 @@ html, body {
 nav {
 	background-color: #ECECEC;
 }
+
+.crl {
+	max-height: 90vh;
+}
+
 .navlist {
 	list-style-type: none;
 	margin-top: 0px;

@@ -76,5 +76,5 @@ var MainInterface = React.createClass({
 // biopic interactive
 ReactDOM.render(
   <MainInterface />,
-  document.querySelector('article')
+  document.querySelector('main')
 ); //render

@@ -27,7 +27,7 @@
 <body>
 <!--Top Navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
+  <div class="container-fluid"> 
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed navbar-button" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span>Menu</span></button>
@@ -41,20 +41,20 @@
         <!-- <li class="navlistitem"><a href="contact.html">Contact</a> </li> -->
       </ul>
     </div>
-    <!-- /.navbar-collapse -->
+    <!-- /.navbar-collapse --> 
   </div>
-  <!-- /.container-fluid -->
+  <!-- /.container-fluid --> 
 </nav>
 
 <!--Jumbotron Section -->
-<div class="jumbotron text-center center-block"> <img src="images/LiamProfile-Pic.jpg" class=" img-thumbnail img-rounded imgwrapper img-responsive center-block jumbo bio-pic" width="200"  alt="Kande Profile Picture">
+<div class="jumbotron text-center center-block"> <img src="images/profilePic.jpg" class=" img-thumbnail img-rounded imgwrapper img-responsive center-block jumbo bio-pic" width="200"  alt="Kande Profile Picture">
   <h1>Projects</h1>
   <h3>I'm a Front-End Web developer offering advanced knowledge of <br>
     JavaScript, React.js, HTML5, CSS3, jQuery, Node.js, Git, Adobe, UI, UX, SEO and SEM.</h3>
   <address>
-  <a class="btn btn-lg" href="mailto:kande.ans@outlook.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> kande.ans@outlook.com</a> <a class="btn btn-lg" href="tel:646-717-0370"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 646-717-0370</a> <a class="btn btn-sm" href="https://www.linkedin.com/in/liamkande/"><span> </span><img src="images/linkedin-icon.png" class="img-responsive" width="25" alt="LinkedIn icon"></a>
+  <a class="btn btn-lg" href="mailto:kande.ans@outlook.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> kande.ans@outlook.com</a> <a class="btn btn-lg" href="tel:646-717-0370"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 646-717-0370</a> <a class="btn btn-sm" href="https://www.linkedin.com/in/liamkande/"><span> </span><img src="images/linkedin-icon.png" class="img-responsive" width="25" alt="LinkedIn icon"></a> <a class="btn btn-sm" href="https://github.com/liamkande"><span> </span><img src="images/gitHubLogo.svg" class="img-responsive" width="25" alt="GitHub icon"></a>
   </address>
-  <p class="text-center"><a class="btn btn-primary btn-lg" href="projects/LiamKandé-Resume.pdf" download="LiamKandé-Resume" role="button">Download Resume</a></p>
+  <p class="text-center"><a class="btn btn-primary btn-lg" href="preview/Liam-Kandé(ResumeUpdated2017).pdf" download="LiamKandé-Resume" role="button">Download Resume</a></p>
 </div>
 
 <!--Portfolio container -->
@@ -63,9 +63,9 @@
     <section class="row section-header">
       <div class="col-sm-12">&nbsp; </div>
       <h2 class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3"> Web, Mobile, Logo &amp; Graphic design Projects I've worked on.</h2>
-
+      
       <!-- Carousel section -->
-
+      
       <div id="carousel1" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carousel1" data-slide-to="0" class="active"></li>
@@ -73,52 +73,48 @@
           <li data-target="#carousel1" data-slide-to="2"></li>
           <li data-target="#carousel1" data-slide-to="3"></li>
           <li data-target="#carousel1" data-slide-to="4"></li>
-            <li data-target="#carousel1" data-slide-to="5"></li>
-          <!--  <li data-target="#carousel1" data-slide-to="5"></li> -->
+          <li data-target="#carousel1" data-slide-to="5"></li>
+          <li data-target="#carousel1" data-slide-to="6"></li>
         </ol>
-        <div class="carousel-inner" role="listbox">
-          <div class="item active"><img src="images/Carousel1.jpg" alt="First slide image" class="center-block">
-            <div class="carousel-caption">
-              <!--  <h3>Coffee Shop</h3> -->
-            </div>
-          </div>
-          <div class="item"><img src="images/Carousel2.jpg" alt="Second slide image" class="center-block">
-            <div class="carousel-caption">
-              <!-- <h3>Beauty Boutique</h3> -->
-            </div>
-          </div>
-          <div class="item"><img src="images/Carousel3.jpg" alt="Third slide image" class="center-block">
-            <div class="carousel-caption">
-              <!--  <h3>LK❤️PLAYS.com</h3> -->
-            </div>
-          </div>
-          <div class="item"><img src="images/Carousel4.jpg" alt="Third slide image" class="center-block">
-            <div class="carousel-caption">
-              <!-- <h3>Success Wall</h3> -->
-            </div>
-          </div>
-          <div class="item"><img src="images/Carousel5.jpg" alt="Third slide image" class="center-block">
-            <div class="carousel-caption">
-              <!-- <h3>LK❤️PLAYS Cover</h3> -->
-            </div>
-          </div>
-          <div class="item"><img src="images/Caurosels6.jpg" alt="Third slide image" class="center-block">
-            <div class="carousel-caption">
-            <!--  <h3>Yosemit Webpage</h3> -->
-            </div>
-          </div>
+        <div class="carousel-inner crl" role="listbox">
+          <picture class="item active ">
+            <source media= "(min-width: 750px)" srcset="images/Optimized-Carousel/Carousel-Img1_1@2x-100.jpg 2x, images/Optimized-Carousel/Carousel-Img1_1@1x-100.jpg " />
+            <source media= "(min-width: 500px)" srcset="images/Optimized-Carousel/Carousel-Img1_1-800.jpg" />
+            <img src="images/Optimized-Carousel/Carousel-Img1_1-600.jpg" class="center-block" alt="Coffee Shop Web Design"> </picture>
+          <picture class="item">
+            <source media= "(min-width: 750px)" srcset="images/Optimized-Carousel/Carousel-Img2@2x-100.jpg 2x, images/Optimized-Carousel/Carousel-Img2@1x-100.jpg" />
+            <source media= "(min-width: 500px)" srcset="images/Optimized-Carousel/Carousel-Img2-800.jpg" />
+            <img src="images/Optimized-Carousel/Carousel-Img2-600.jpg" class="center-block" alt="Real Estate Web Design"> </picture>
+          <picture class="item">
+            <source media= "(min-width: 750px)" srcset="images/Optimized-Carousel/Carousel-Img3@2x-100.jpg 2x, images/Optimized-Carousel/Carousel-Img3@1x-100.jpg" />
+            <source media= "(min-width: 500px)" srcset="images/Optimized-Carousel/Carousel-Img3-800.jpg" />
+            <img src="images/Optimized-Carousel/Carousel-Img3-600.jpg" class="center-block" alt="Beauty Boutique Graphic Design"> </picture>
+          <picture class="item">
+            <source media= "(min-width: 750px)" srcset="images/Optimized-Carousel/Carousel-Img4@2x-100.jpg 2x, images/Optimized-Carousel/Carousel-Img4@1x-100.jpg" />
+            <source media= "(min-width: 500px)" srcset="images/Optimized-Carousel/Carousel-Img4-800.jpg" />
+            <img src="images/Optimized-Carousel/Carousel-Img4-600.jpg" class="center-block" alt="LK❤️PLAYS Web Design"> </picture>
+          <picture class="item">
+            <source media= "(min-width: 750px)" srcset="images/Optimized-Carousel/Carousel-Img5@2x-100.jpg 2x, images/Optimized-Carousel/Carousel-Img5@1x-100.jpg" />
+            <source media= "(min-width: 500px)" srcset="images/Optimized-Carousel/Carousel-Img5-800.jpg" />
+            <img src="images/Optimized-Carousel/Carousel-Img5-600.jpg"  class="center-block" alt="Success Wall Graphic Design"> </picture>
+          <picture class="item">
+            <source media= "(min-width: 750px)" srcset="images/Optimized-Carousel/Carousel-Img6@2x-100.jpg 2x, images/Optimized-Carousel/Carousel-Img6@1x-100.jpg" />
+            <source media= "(min-width: 500px)" srcset="images/Optimized-Carousel/Carousel-Img6-800.jpg" />
+            <img src="images/Optimized-Carousel/Carousel-Img6-600.jpg" class="center-block" alt="LK❤️PLAYS Logo Design"> </picture>
+          <picture class="item">
+            <source media= "(min-width: 750px)" srcset="images/Optimized-Carousel/Carousel-Img7@2x-100.jpg 2x, images/Optimized-Carousel/Carousel-Img7@1x-100.jpg" />
+            <source media= "(min-width: 500px)" srcset="images/Optimized-Carousel/Carousel-Img7-800.jpg" />
+            <img src="images/Optimized-Carousel/Carousel-Img7-600.jpg" class="center-block" alt="LK❤️PLAYS Cover Design"> </picture>
         </div>
         <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel1" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a></div>
     </section>
     <!-- ReactInterface -->
     <div class="row">
-      <article>
-
-      </article>
+      <main> </main>
     </div>
-
+    
     <!-- Projects container -->
-
+    
     <div class="row" >
       <div class="col-sm-12">&nbsp; </div>
       <div class="col-sm-12">&nbsp; </div>
@@ -131,12 +127,12 @@
 
 <footer>copyright 2017. Made with 100% recycled pixels by Liam Ansoumane Kande. </footer>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script> 
 
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<!-- <script src="js/bootstrap.js"></script> -->
-<script src="js/script.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<!-- <script src="js/bootstrap.js"></script> --> 
+<script src="js/script.js"></script> 
 <!-- <script src="js/portfolio.js"></script> -->
 
 </body>
